@@ -1,0 +1,13 @@
+11月 08, 2026 8:44:09 下午 com.campus.lowcarbon.dao.Database initialize
+信息: 数据库初始化完成：jdbc:sqlite:data/campus.db（15 条语句）
+[main] INFO com.campus.lowcarbon.service.UserService - 注册成功：id=1, username=admin, role=系统管理员
+[main] INFO com.campus.lowcarbon.service.DataSeeder - 已创建默认管理员：admin / admin123（请在首次登录后修改密码）
+[main] INFO com.campus.lowcarbon.service.UserService - 注册成功：id=2, username=demo_owner, role=普通学生用户
+[main] INFO com.campus.lowcarbon.service.UserService - 注册成功：id=3, username=demo_buyer, role=普通学生用户
+[main] INFO com.campus.lowcarbon.service.UserService - 登录成功：id=2, username=demo_owner
+[main] INFO com.campus.lowcarbon.service.ItemService - 物品发布成功：id=1, owner=2, title=《数据结构与算法分析》第三版
+[main] INFO com.campus.lowcarbon.service.ItemService - 物品发布成功：id=2, owner=2, title=65W 氮化镓充电器
+[main] INFO com.campus.lowcarbon.service.ItemService - 物品发布成功：id=3, owner=2, title=闲置折叠收纳箱（免费赠送）
+[main] INFO com.campus.lowcarbon.service.ItemService - 收藏成功：user=3, item=3
+[main] INFO com.campus.lowcarbon.service.ItemService - 物品状态变更：id=3, 在架 -> 已下架
+[main] INFO com.campus.lowcarbon.service.ItemService - 物品状态变更：id=3, 已下架 -> 在架

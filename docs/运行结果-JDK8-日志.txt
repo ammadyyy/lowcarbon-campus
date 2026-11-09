@@ -1,0 +1,7 @@
+十一月 08, 2026 8:44:15 下午 com.campus.lowcarbon.dao.Database initialize
+信息: 数据库初始化完成：jdbc:sqlite:data/campus.db（15 条语句）
+[main] INFO com.campus.lowcarbon.service.UserService - 登录成功：id=2, username=demo_owner
+[main] INFO com.campus.lowcarbon.service.UserService - 登录成功：id=3, username=demo_buyer
+[main] INFO com.campus.lowcarbon.service.UserService - 登录成功：id=2, username=demo_owner
+[main] INFO com.campus.lowcarbon.service.ItemService - 物品状态变更：id=3, 在架 -> 已下架
+[main] INFO com.campus.lowcarbon.service.ItemService - 物品状态变更：id=3, 已下架 -> 在架
